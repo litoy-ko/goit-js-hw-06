@@ -10,7 +10,7 @@ const ingredients = [
 const ul = document.getElementById("ingredients");
 
 for (let ingredient of ingredients) {
-  let li = document.createElement("");
+  let li = document.createElement("li");
   li.innerText = ingredient;
   ul.appendChild(li);
 }
